@@ -6,15 +6,13 @@ firstLetterName("Gisselle");
 
 
 function divisibleByTwo(num) {
-    if(num % 2 == 0) {
-        return("Even");
-    } else if(num % 2 == 1) {
-        return("Odd");
+    if(num % 2 === 0) {
+        return even
+    } else {
+        return odd
     }
 }
-divisibleByTwo("3");
 console.log(divisibleByTwo(3));
-
 
 
 const numbersInArray = [7,81,13,21,50];
@@ -28,9 +26,5 @@ function largestNum (arr) {
     return largest;
 }
 console.log(largestNum(numbersInArray));
-
-
-
 firstLetterName("Gisselle");
-console.log(divisibleByTwo("3"));
-console.log(largestNum(numbersInArray));
+divisibleByTwo(3);
