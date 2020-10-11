@@ -7,9 +7,9 @@ firstLetterName("Gisselle");
 
 function divisibleByTwo(num) {
     if(num % 2 === 0) {
-        return even
+        return true
     } else {
-        return odd
+        return false
     }
 }
 console.log(divisibleByTwo(3));
